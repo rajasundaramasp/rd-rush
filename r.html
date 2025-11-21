@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<!-- Open Graph Tags (kept) -->
+<meta property="og:title" content="RD RUSH" />
+<meta property="og:description" content="RD Rush PERFORMANCE OF Erode Division" />
+<meta property="og:image" content="https://rajasundaram.gt.tc/rd_rush_preview.jpg?v=3" />
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rajasundaram.gt.tc/6.php?start_date=2025-10-15" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<title>RD RUSH — Click to Open</title>
+
+<style>
+  :root{
+    --click-url: "https://rajasundaram.gt.tc/6.php?start_date=2025-10-15";
+    --max-width: 1200px;
+  }
+
+  html,body{
+    height:100%;
+    margin:0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    background: #111;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+    box-sizing:border-box;
+  }
+
+  .hero {
+    max-width: var(--max-width);
+    width:100%;
+    position:relative;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.6);
+    background: #000;
+  }
+
+  /* Make the entire figure clickable */
+  .hero a {
+    display:block;
+    text-decoration:none;
+    color:inherit;
+  }
+
+  .hero img {
+    width:100%;
+    height:auto;
+    display:block;
+    vertical-align:middle;
+  }
+
+  /* overlay for the text inside image */
+  .overlay {
+    position:absolute;
+    inset:0;                      /* covers full image */
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    pointer-events:none;          /* allow clicks to pass to the <a> */
+  }
+
+  .blink-text {
+    pointer-events:auto;          /* allow clicking the text itself too */
+    font-weight:800;
+    font-size: clamp(20px, 6vw, 56px);
+    letter-spacing: 0.12em;
+    padding: .35em .9em;
+    border-radius: 999px;
+    background: rgba(0,0,0,0.25);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    color: #fff;
+    text-transform: uppercase;
+    transform: translateZ(0);     /* promote to its own layer for smoother animation */
+    box-shadow: 0 6px 30px rgba(0,0,0,0.45), 0 0 0 6px rgba(255,255,255,0.03) inset;
+    pointer-events: auto;
+    cursor: pointer;
+    transition: transform .18s ease;
+    user-select: none;
+    outline: none;
+  }
+
+  .blink-text:active { transform: scale(.98); }
+
+  /* Color-cycle animation */
+  @keyframes colorCycle {
+    0%   { color: #ff3b3b; text-shadow: 0 0 12px rgba(255,59,59,0.7); }
+    12%  { color: #ff9a3b; text-shadow: 0 0 12px rgba(255,154,59,0.6); }
+    25%  { color: #ffd93b; text-shadow: 0 0 12px rgba(255,217,59,0.6); }
+    37%  { color: #6cff3b; text-shadow: 0 0 12px rgba(108,255,59,0.6); }
+    50%  { color: #3bffdc; text-shadow: 0 0 12px rgba(59,255,220,0.6); }
+    62%  { color: #3b6eff; text-shadow: 0 0 12px rgba(59,110,255,0.6); }
+    75%  { color: #9b3bff; text-shadow: 0 0 12px rgba(155,59,255,0.6); }
+    87%  { color: #ff3bb5; text-shadow: 0 0 12px rgba(255,59,181,0.6); }
+    100% { color: #ff3b3b; text-shadow: 0 0 12px rgba(255,59,59,0.7); }
+  }
+
+  /* Blink effect: toggles visibility to create an eye-catching blink */
+  @keyframes blink {
+    0%, 10%  { opacity: 1; filter: drop-shadow(0 6px 18px rgba(0,0,0,0.6)); transform: translateY(0); }
+    11%, 20% { opacity: .15; filter: blur(.6px) drop-shadow(0 6px 18px rgba(0,0,0,0.25)); transform: translateY(1px); }
+    21%, 100%{ opacity: 1; filter: drop-shadow(0 6px 18px rgba(0,0,0,0.6)); transform: translateY(0); }
+  }
+
+  /* apply both animations concurrently */
+  .blink-text {
+    animation:
+      colorCycle 6s linear infinite,
+      blink 1.8s steps(2, end) infinite;
+  }
+
+  /* Respect users who prefer reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    .blink-text { animation: none; }
+  }
+
+  /* optional caption under the image */
+  .caption {
+    color:#ddd;
+    font-size:14px;
+    padding:10px 0 0;
+    text-align:center;
+  }
+
+  /* small responsive tweaks */
+  @media (max-width:420px){
+    .blink-text { font-size: clamp(16px, 8vw, 28px); padding:.25em .6em; }
+  }
+</style>
+</head>
+
+<body>
+  <!-- Make image + overlay clickable to your 6.php URL -->
+  <figure class="hero" aria-label="RD RUSH preview">
+    <a href="https://rajasundaram.gt.tc/6.php?start_date=2025-10-15" title="Open RD RUSH (click)">
+
+      <!-- preview image -->
+      <img src="https://rajasundaram.gt.tc/rd_rush_preview.jpg?v=3" alt="RD RUSH preview image">
+
+      <!-- overlay text inside the image -->
+      <figcaption class="overlay" aria-hidden="false">
+        <span class="blink-text" role="button" tabindex="0">CLICK ME</span>
+      </figcaption>
+    </a>
+  </figure>
+
+  <div class="caption">Click the image or text to open RD RUSH</div>
+
+<script>
+  // Make Enter or Space on the focused "CLICK ME" trigger click (keyboard access)
+  document.addEventListener('DOMContentLoaded', function(){
+    const text = document.querySelector('.blink-text');
+    if(!text) return;
+
+    text.addEventListener('keydown', function(e){
+      if(e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar'){
+        e.preventDefault();
+        // find nearest anchor and follow it
+        const a = text.closest('a');
+        if(a) a.click();
+      }
+    });
+
+    // optional: keyboard focus styling for accessibility
+    text.addEventListener('focus', function(){ text.style.boxShadow = '0 0 0 4px rgba(255,255,255,0.08), 0 6px 30px rgba(0,0,0,0.45)'; });
+    text.addEventListener('blur', function(){ text.style.boxShadow = '0 6px 30px rgba(0,0,0,0.45), 0 0 0 6px rgba(255,255,255,0.03) inset'; });
+  });
+</script>
+</body>
+</html>
